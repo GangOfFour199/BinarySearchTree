@@ -69,7 +69,7 @@ export class Tree {
     }
     return currentNode;
   }
-  // deleting uses inorder tarversal, looks to the leftmost child of right subtree
+  // deleting uses inorder traversal, looks to the leftmost child of right subtree
   minValue(node) {
     let minVal = node.data;
     while (node.leftChild != null) {
